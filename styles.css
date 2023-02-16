@@ -1,0 +1,101 @@
+:root {
+    --workRed: hsl(15, 100%, 70%);
+    --playBlue: hsl(195, 74%, 62%);
+    --studyRed: hsl(348, 100%, 68%);
+    --exerciseGreen: hsl(145, 58%, 55%);
+    --socialViolet: hsl(264, 64%, 52%);
+    --selfCareOrange: hsl(43, 84%, 65%);
+    --baseBlue: hsl(246, 80%, 60%);
+    --veryDarkBlue: hsl(226, 43%, 10%);
+    --darkBlue: hsl(235, 46%, 20%);
+    --desaturatedBlue: hsl(235, 45%, 61%);
+    --paleBlue: hsl(236, 100%, 87%);
+}
+
+*{
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--veryDarkBlue);
+    display: grid;
+    align-content: center;
+    justify-items: center; 
+}
+
+.container {
+    width: 50rem;
+    height: 22rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.user-container {
+    grid-row: span 2;
+    background-color: var(--darkBlue);
+    border-radius: 1rem;
+}
+
+.user-card {
+    height: 15.5rem;
+    background-color: var(--baseBlue);
+    border-radius: 1rem;
+}
+
+.time-container {
+    border-radius: 1rem;
+    height: 10rem;
+}
+
+.time-card {
+    background-color: var(--darkBlue);
+    border-radius: 0.9rem;
+    height: 8rem;
+    margin-top: 2rem;
+}
+
+.work {
+    background-color: var(--workRed);
+    background-image: url(images/icon-work.svg);
+}
+
+.play {
+    background-color: var(--playBlue);
+    background-image: url(images/icon-play.svg);
+}
+
+.study {
+    background-color: var(--studyRed);
+    background-image: url(images/icon-study.svg);
+}
+
+.exercise {
+    background-color: var(--exerciseGreen);
+    background-image: url(images/icon-exercise.svg);
+}
+
+.social {
+    background-color: var(--socialViolet);
+    background-image: url(images/icon-social.svg);
+}
+
+.selfcare {
+    background-color: var(--selfCareOrange);
+    background-image: url(images/icon-self-care.svg);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
