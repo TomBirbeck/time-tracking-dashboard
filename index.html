@@ -15,8 +15,27 @@
     <section class="container">
       <div class="user-container">
         <div class="user-card">
-
+          <img class="user-image" src="./images/image-jeremy.png" alt="user image"/>
+          <h1>Report for</h1>
+          <p class="user-name">Jeremy Robson</p>
         </div>
+        <fieldset class="option-container">
+          <legend class="visually-hidden">
+            Select a time period
+          </legend>
+          <div>
+            <input type="radio" class="options" id="daily" name="time-period" value="daily">
+            <label for="daily">Daily</label>
+          </div>
+          <div>
+            <input type="radio" class="options" id="weekly" name="time-period" value="weekly">
+            <label for="weekly">Weekly</label>
+          </div>
+          <div>
+            <input type="radio" class="options" id="monthly" name="time-period" value="monthly">
+            <label for="monthly">Monthly</label>
+          </div>
+        </fieldset>
       </div>
   
       <div class="time-container work">
@@ -39,13 +58,6 @@
       </div>
     </section>
   </main>
-
-  Report for
-  Jeremy Robson
-
-  Daily
-  Weekly
-  Monthly
 
   Work
   5hrs <!-- daily -->

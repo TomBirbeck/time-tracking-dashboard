@@ -46,6 +46,47 @@ body {
     height: 15.5rem;
     background-color: var(--baseBlue);
     border-radius: 1rem;
+    padding: 1.5rem;
+}
+
+.user-image {
+    height: 3rem;
+    width: 3rem;
+    border: solid 2px white;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
+
+h1 {
+    color: var(--paleBlue);
+    font-size: 0.7rem;
+    font-weight: 300;
+}
+
+.user-name {
+    color: var(--paleBlue);
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.option-container {
+    border: none;
+    padding-left: 1rem;
+    color: var(--desaturatedBlue);
+}
+
+.options {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 0;
+  }
+
+  .options + label:is(:hover, :focus-visible) {
+    color: var(--paleBlue);
+}
+
+.options:focus + label {
+    color: var(--paleBlue)
 }
 
 .time-container {
@@ -88,6 +129,10 @@ body {
 .selfcare {
     background-color: var(--selfCareOrange);
     background-image: url(images/icon-self-care.svg);
+}
+
+.visually-hidden {
+    color: transparent;
 }
 
 .attribution {
