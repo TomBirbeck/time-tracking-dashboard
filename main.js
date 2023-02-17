@@ -2,11 +2,8 @@ const titles = document.querySelectorAll('.title')
 const currentArray = document.querySelectorAll('.current')
 const previousArray = document.querySelectorAll('.previous')
 const options = document.querySelectorAll('.options')
-const weekly = document.querySelector('#weekly')
 const res = await fetch ('./data.json')
 const data = await res.json()
-
-console.log(weekly)
 
 const setTitles = (titles, data) => {
     for (let i = 0; i < titles.length; i++){

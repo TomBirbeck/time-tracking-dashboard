@@ -141,31 +141,43 @@ h2 img {
 .work {
     background-color: var(--workRed);
     background-image: url(images/icon-work.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
 }
 
 .play {
     background-color: var(--playBlue);
     background-image: url(images/icon-play.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
 }
 
 .study {
     background-color: var(--studyRed);
     background-image: url(images/icon-study.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
 }
 
 .exercise {
     background-color: var(--exerciseGreen);
     background-image: url(images/icon-exercise.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
 }
 
 .social {
     background-color: var(--socialViolet);
     background-image: url(images/icon-social.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
 }
 
 .selfcare {
     background-color: var(--selfCareOrange);
     background-image: url(images/icon-self-care.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
 }
 
 .visually-hidden {
