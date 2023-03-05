@@ -19,24 +19,23 @@
     font-family: 'Rubik', sans-serif;
 }
 
-body {
+html, body {
     font-size: 18px;
-    height: 100vh;
+    height: 100%;
     background-color: var(--veryDarkBlue);
     color: var(--paleBlue);
    
 }
 
 main {
-    height: 95vh;
+    height: 100vh;
     display: grid;
     align-content: center;
     justify-items: center; 
 }
 
 .container {
-    width: 50rem;
-    height: 22rem;
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1.5rem;
@@ -46,10 +45,13 @@ main {
     grid-row: span 2;
     background-color: var(--darkBlue);
     border-radius: 1rem;
+    width: 90%;
+    margin-left: 10%;
+    height: 26rem;
 }
 
 .user-card {
-    height: 15.5rem;
+    height: 65%;
     background-color: var(--baseBlue);
     border-radius: 1rem;
     padding: 1.3rem 1.5rem;
@@ -87,7 +89,7 @@ h1 {
   }
 
   .options {
-    margin-bottom: 1.4rem;
+    margin-bottom: 1.8rem;
   }
 
   .options + label:is(:hover, :focus-visible) {
@@ -100,14 +102,13 @@ h1 {
 
 .time-container {
     border-radius: 1rem;
-    height: 10rem;
 }
 
 .time-card {
     background-color: var(--darkBlue);
     border-radius: 0.9rem;
-    height: 8rem;
-    margin-top: 2rem;
+    height: 80%;
+    margin-top: 2.6rem;
     padding: 1rem 0.8rem;
 }
 
