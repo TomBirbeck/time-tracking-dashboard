@@ -195,3 +195,28 @@ h2 img {
     color: hsl(228, 45%, 44%);
 }
 
+@media screen and (max-width: 800px) {
+    .main {
+        height:100svh;
+    }
+
+    .user-container {
+        width: 100%;
+    }
+    .container {
+        grid-template-columns: 1fr;
+    }
+    .user-container {
+        grid-row: span 1;
+        margin-left: 0;
+
+    }
+
+    .attribution {
+        display: none;
+    }
+}
+
+
+
+
